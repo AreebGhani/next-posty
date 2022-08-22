@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: darkgray;
+}
+
+.NavBar {
+  background-color: #eee;
+  padding: 1vh;
+  margin: 1rem;
+  border: 2px solid lightgray;
+}
+
+.NavBar ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.NavBar ul li {
+  color: black;
+  margin: 0 1rem 0 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.left {
+  justify-content: start;
+}
+
+.right {
+  justify-content: end;
+}
+
+.navLink {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.navLink:hover {
+  background: linear-gradient(blue, lightgray);
+  color: white;
+}
+
+.Footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 1vh;
+  margin: 1rem;
+  border: 2px solid lightgray;
+}
+
+.Footer span:hover {
+  text-decoration: underline;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 1vh;
+  margin: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.margin-left {
+  margin-left: 3rem;
+}
+
+.margin-right {
+  margin-right: 3rem;
+}
+
+.margin-bottom {
+  margin-bottom: 0.5rem;
+}
+
+.postContainer {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer form {
+  background: white;
+  padding: 2rem 5rem 2rem 5rem;
+  margin: 2rem;
+}
+
+.label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  margin: 0.3rem;
+}
+
+.input {
+  font-size: 1rem;
+  border: 2px solid darkgray;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  margin: 0.3rem;
+}
+
+.btn {
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.btn:hover {
+  background: linear-gradient(blue, lightgray);
+  color: white;
+}
+
+.del {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.del button {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 0 0.4rem 0 0.4rem;
+}
+
+.del button:hover {
+  background: linear-gradient(red, brown);
+  color: white;
+}
+
+.heading {
+  text-transform: capitalize;
+  margin-bottom: 0.3rem;
+  margin-top: -1rem;
+  font-size: 2rem;
+}
+
+.body {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.addedBy {
+  color: blue;
+  text-transform: capitalize;
+  margin-right: 0.3rem;
+  cursor: pointer;
+}
+
+.addedBy:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+.ago {
+  margin-left: 0.3rem;
+  margin-right: 1rem;
+}
+
+.likes {
+  margin-left: 1rem;
+  font-weight: bolder;
+}
+
+.likebtn {
+  cursor: pointer;
+  color: blue;
+  margin-left: 0.2rem;
+  margin-right: 0.3rem;
+}
+
+.likebtn:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.resposive-table {
+  overflow-x: auto;
+}
+
+.table td,
+.table th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+.table tbody tr:hover {
+  background-color: #eee;
+}
+
+.table thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #eee;
+  color: black;
+}
+
+.pagination {
+  display: inline-flex;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+
+.pagination button {
+  cursor: pointer;
+  background-color: #eee;
+  font-weight: bold;
+  color: black;
+  border: 1px solid lightgray;
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+}
+
+.pagination button:hover {
+  background-color: rgb(81, 81, 224);
+  color: white;
+}
+
+.nopost{
+  margin-top: 1rem;
+  padding: 1rem;
+  font-weight: 900;
+  font-size: 2rem;
+}
